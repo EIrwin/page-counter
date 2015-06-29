@@ -11,6 +11,7 @@ RUN sudo apt-get update
 RUN sudo apt-get install -y nodejs
 RUN sudo apt-get install -y npm
 RUN cd /src; npm install
+RUN npm install redis
 
 #Expose Ports for container-linking
 EXPOSE  8080
