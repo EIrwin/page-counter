@@ -1,0 +1,11 @@
+{
+	"name":"page-counter",
+	"private":false,
+	"version":"0.0.1",
+	"description":"Page counter using Node.js Express and Redis",
+	"author":"Eric Irwin <eric.irwin1124@gmail.com>",
+	"dependencies":{
+		"express":"3.2.4"
+	}
+
+}
